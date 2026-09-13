@@ -20,6 +20,9 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:8761/eureka
+jwt:
+  secret: restaurant-platform-jwt-secret-2026-8xK#92mP!4qZ
+  access-token-expiration: 900000
 
 management:
   endpoints:
