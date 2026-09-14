@@ -23,6 +23,7 @@ eureka:
 jwt:
   secret: restaurant-platform-jwt-secret-2026-8xK#92mP!4qZ
   access-token-expiration: 900000
+  refresh-token-expiration: 604800000
 
 management:
   endpoints:
