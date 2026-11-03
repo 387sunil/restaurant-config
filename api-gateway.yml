@@ -24,3 +24,5 @@ management:
     web:
       exposure:
         include: health,info
+jwt:
+  secret: restaurant-platform-jwt-secret-2026-8xK#92mP!4qZ
